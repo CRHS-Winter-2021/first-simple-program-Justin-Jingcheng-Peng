@@ -8,3 +8,14 @@
 
 #2. Write a function that takes a word and a number 'n'. Print the word out 'n' times. 
 #ex. "Hello"  3 = "HelloHelloHello"
+
+
+'''while True:
+  s = input('What is my favourie color?')
+  if s == "blue":
+    print("Yes")
+    break'''
+
+s,n = input().split(' ')
+n = int(n)
+print(3*s)
